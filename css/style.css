@@ -2,6 +2,25 @@
     width: 64px;
   }
 
+
+  body {
+      background: url('../images/Portfolio_About.jpg');
+  }
+
+  .footer {
+      background-color: orange;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+      overflow:hidden;
+  }
+
+  .panel {
+    margin-top: 123px;
+  }
+
   .card-img-top {
     width: 320px;
     float: left;
@@ -10,15 +29,10 @@
   .main-section {
     float: left;
     width: 100%;
-    max-width: 650px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 auto;
     background: #fff;
     border: 1px solid #ddd;
-  }
-
-  body {
-    margin-bottom: 100px;
   }
 
   h3 {
@@ -28,7 +42,7 @@
     border-bottom: 20px;
   }
 
-  .work img {
+  img {
     width: 240px;
   }
 
@@ -56,20 +70,22 @@
 
   .clsBand {
     position: relative;
-    width: 130px;
+    width: 240px;
     height: 40px;
     bottom: 50px;
     color: #ffffff;
     background: green;
-    opacity: 0.6;
+    opacity: 0.8;
     text-align:center;
     font-weight:normal;
    }
 
-    footer {
-       bottom: 0;
-       height: 100px;
-       left: 0;
-       position: absolute;
-       width: 100%;
-    }
+  body {
+    margin: 0 auto -155px;
+  }
+  footer {
+    background-color: #28364f;
+    height: -155px;
+    color:#FFFFFF;
+    clear: both;
+  }
