@@ -1,22 +1,75 @@
   .social {
-    width: 32px;
+    width: 64px;
   }
-  
+
   .card-img-top {
     width: 320px;
     float: left;
   }
 
-  .card h3 {
-    position: absolute;
-    bottom: 20px;
+  .main-section {
+    float: left;
     width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
   }
+
+  body {
+    margin-bottom: 100px;
+  }
+
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    border-bottom: 20px;
+  }
+
+  .work img {
+    width: 240px;
+  }
+
+  .clsGrid {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      height: 80px;
+  }
+
+  .clsGrid li {
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 5px;
+  }
+
+  section {
+    width: 650px;
+    float: left;
+    background-color: #ffffff;
+    margin-right: 140px auto;
+  }
+
+  .clsBand {
+    position: relative;
+    width: 130px;
+    height: 40px;
+    bottom: 50px;
+    color: #ffffff;
+    background: green;
+    opacity: 0.6;
+    text-align:center;
+    font-weight:normal;
+   }
+
+    footer {
+       bottom: 0;
+       height: 100px;
+       left: 0;
+       position: absolute;
+       width: 100%;
+    }
